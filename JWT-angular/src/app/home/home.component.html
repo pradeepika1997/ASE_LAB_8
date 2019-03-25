@@ -1,0 +1,33 @@
+<div id="login-box">
+
+  <div class="left-box">
+<form (ngSubmit)="DisplayUser()">
+
+
+      <div class="form-group">
+        <button class="btn btn-primary" >Display User Details</button>
+      </div>
+
+    </form>
+
+  </div>
+
+  <div>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+      </tr>
+
+      <tr>
+        <td>
+          {{userData.authData.user.name}}
+        </td>
+        <td>
+          {{userData.authData.user.email}}
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</div>

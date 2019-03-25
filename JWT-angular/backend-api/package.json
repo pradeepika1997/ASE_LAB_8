@@ -1,0 +1,17 @@
+{
+  "name": "jwt-postman",
+  "version": "1.0.0",
+  "description": "verifying JWT",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^7.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
